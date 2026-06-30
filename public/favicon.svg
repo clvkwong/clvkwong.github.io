@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ck. logo">
+  <circle cx="64" cy="64" r="64" fill="#FFE6DD" />
+  <text
+    x="64"
+    y="67"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    dominant-baseline="middle"
+    font-size="44"
+    font-style="italic"
+    font-weight="500"
+    fill="#C8451F"
+    letter-spacing="-0.03em"
+  >
+    ck.
+  </text>
+</svg>
