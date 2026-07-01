@@ -174,8 +174,8 @@ section {
   max-width: 600px;
   margin-bottom: 30px;
 }
-.about-text .dim {
-  color: var(--muted);
+.about-text .highlight {
+  color: var(--coral-deep);
 }
 .chip-row {
   display: flex;

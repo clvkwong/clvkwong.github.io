@@ -10,7 +10,7 @@ export default function About() {
           I fell in love with the endless possibilities of software engineering.
           In the pursuit of greatness, I spent years shipping features at large
           companies and pursuing entrpreneurial ventures.{" "}
-          <span className="dim">
+          <span className="highlight">
             But somewhere along the way, I lost track of whether I was doing
             good.
           </span>{" "}
