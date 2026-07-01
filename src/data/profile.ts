@@ -79,7 +79,7 @@ export const roles: RoleEntry[] = [
     company: "Sezzle",
     bullets: [
       "Generated $12M in annual revenue by targeting offers to specific user cohorts and payment plans",
-      "Improved retention ~60% by automating Sezzle Premium free trials",
+      "Improved retention by ~60% by automating Sezzle Premium free trials",
       "Lifted store click-through rate ~30% by customizing category rankings in the shop tab",
       "Cut Braze event data loss to under 1% with an outbox-pattern architecture",
     ],
@@ -163,14 +163,14 @@ export const projects: ProjectEntry[] = [
     badge: "in personal use, open sourced",
     title: "FlowState",
     description:
-      "A bold, gamified habit tracker — React Native, Expo, Firebase, and Zustand under the hood.",
+      "A gamified habit tracker with timed routines. Built with React Native, Expo, Firebase, Zustand.",
     variant: "pink",
   },
   {
     badge: "in personal use",
     title: "WorryfreeFinance",
     description:
-      "A personal finance project born from one too many spreadsheet headaches.",
+      "A personal finance project born from one too many spreadsheet headaches. Built with React Native, Firebase, Redux.",
     variant: "coral",
   },
 ];
