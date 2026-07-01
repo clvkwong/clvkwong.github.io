@@ -230,14 +230,17 @@ section {
   border-radius: 8px;
   padding: 8px 13px;
 }
-.skill-pill.solid {
+.skill-pill.coral {
   background: var(--panel-coral);
   color: var(--coral-deep);
 }
-.skill-pill.outline {
-  background: transparent;
-  border: 1px solid var(--rule);
-  color: var(--muted);
+.skill-pill.pink {
+  background: var(--panel-pink);
+  color: var(--pink-deep);
+}
+.skill-pill.peach {
+  background: var(--panel-peach);
+  color: #9c6a14;
 }
 
 /* experience timeline */

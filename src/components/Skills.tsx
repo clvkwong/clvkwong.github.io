@@ -1,5 +1,11 @@
 import { skills } from "../data/profile";
 
+const skillPillVariants = ["coral", "pink", "peach"] as const;
+
+function getSkillPillVariant(index: number) {
+  return skillPillVariants[index % skillPillVariants.length];
+}
+
 export default function Skills() {
   return (
     <section id="skills">
@@ -10,11 +16,8 @@ export default function Skills() {
           <div className="skill-col">
             <div className="skill-col-label">languages</div>
             <div className="skill-pills">
-              {skills.languages.map((s) => (
-                <span
-                  key={s.label}
-                  className={`skill-pill ${s.solid ? "solid" : "outline"}`}
-                >
+              {skills.languages.map((s, index) => (
+                <span key={s.label} className={`skill-pill ${getSkillPillVariant(index)}`}>
                   {s.label}
                 </span>
               ))}
@@ -25,11 +28,8 @@ export default function Skills() {
           <div className="skill-col">
             <div className="skill-col-label">tools &amp; platforms</div>
             <div className="skill-pills">
-              {skills.tools.map((s) => (
-                <span
-                  key={s.label}
-                  className={`skill-pill ${s.solid ? "solid" : "outline"}`}
-                >
+              {skills.tools.map((s, index) => (
+                <span key={s.label} className={`skill-pill ${getSkillPillVariant(index)}`}>
                   {s.label}
                 </span>
               ))}

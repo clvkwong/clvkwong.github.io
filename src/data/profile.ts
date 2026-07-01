@@ -34,22 +34,22 @@ export const sectors: { label: string; variant: "coral" | "pink" | "peach" }[] =
 
 export const skills = {
   languages: [
-    { label: "JavaScript", solid: true },
-    { label: "TypeScript", solid: true },
-    { label: "Golang", solid: true },
-    { label: "Python", solid: true },
+    { label: "JavaScript" },
+    { label: "TypeScript" },
+    { label: "Golang" },
+    { label: "Python" },
   ],
   tools: [
-    { label: "React", solid: true },
-    { label: "React Native", solid: true },
-    { label: "GraphQL", solid: true },
-    { label: "Node.js", solid: true },
-    { label: "Git", solid: true },
-    { label: "AWS", solid: true },
-    { label: "Docker", solid: true },
-    { label: "PostgreSQL", solid: true },
-    { label: "MongoDB", solid: true },
-    { label: "Redis", solid: true },
+    { label: "React" },
+    { label: "React Native" },
+    { label: "GraphQL" },
+    { label: "Node.js" },
+    { label: "Git" },
+    { label: "AWS" },
+    { label: "Docker" },
+    { label: "PostgreSQL" },
+    { label: "MongoDB" },
+    { label: "Redis" },
   ],
 };
 
